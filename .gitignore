@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.pnpm-store/
+.tmp/
+.build-check/
+.preview-build/
+deploy-site/
+infinite-canvas/
+qa-*.png
