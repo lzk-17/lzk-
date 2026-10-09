@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0f0f" />
+    <title>23:17 · 视觉资产</title>
+    <style>
+      :root { color-scheme:dark; --ink:#0d0f0f; --paper:#f0eee7; --muted:#9da5a0; --coral:#f18268; --line:rgba(240,238,231,.16); }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--ink); color:var(--paper); font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif; }
+      header { position:sticky; top:0; z-index:2; display:flex; align-items:end; justify-content:space-between; gap:24px; padding:32px max(24px,4vw); border-bottom:1px solid var(--line); background:rgba(13,15,15,.88); backdrop-filter:blur(16px); }
+      h1 { margin:0; font-size:clamp(34px,5vw,74px); line-height:.92; letter-spacing:-.06em; }
+      header p { margin:0; color:var(--muted); font-size:12px; }
+      main { width:min(calc(100% - 48px),1600px); margin:64px auto 100px; }
+      section + section { margin-top:92px; }
+      h2 { margin:0 0 24px; color:var(--coral); font-size:12px; font-weight:500; letter-spacing:.12em; }
+      .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; }
+      figure { margin:0; border:1px solid var(--line); background:#151818; }
+      img { display:block; width:100%; aspect-ratio:3/4; object-fit:cover; background:#151818; }
+      .scenes img { aspect-ratio:16/10; }
+      figcaption { padding:14px 16px 16px; color:var(--muted); font-size:12px; }
+      @media (max-width:760px) { header { align-items:start; flex-direction:column; } .grid { grid-template-columns:1fr; } main { margin-top:40px; } }
+    </style>
+  </head>
+  <body>
+    <header><h1>23:17<br />视觉资产</h1><p>角色设定 / 场景概念</p></header>
+    <main>
+      <section>
+        <h2>角色设定</h2>
+        <div class="grid">
+          <figure><img src="林昭.webp" alt="林昭角色设定" width="1200" height="1600" decoding="async" /><figcaption>林昭</figcaption></figure>
+          <figure><img src="林野.webp" alt="林野角色设定" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption>林野</figcaption></figure>
+          <figure><img src="顾沉.webp" alt="顾沉角色设定" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption>顾沉</figcaption></figure>
+          <figure><img src="沈阙.webp" alt="沈阙角色设定" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption>沈阙</figcaption></figure>
+          <figure><img src="苏禾.webp" alt="苏禾角色设定" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption>苏禾</figcaption></figure>
+          <figure><img src="赵临.webp" alt="赵临角色设定" width="1200" height="1600" loading="lazy" decoding="async" /><figcaption>赵临</figcaption></figure>
+        </div>
+      </section>
+      <section class="scenes">
+        <h2>场景概念</h2>
+        <div class="grid">
+          <figure><img src="场景一雨夜末世监控都市.webp" alt="雨夜末世监控都市" width="1600" height="1067" loading="lazy" decoding="async" /><figcaption>场景一 / 雨夜末世监控都市</figcaption></figure>
+          <figure><img src="场景二末日废墟中的冷蓝卧室.webp" alt="末日废墟中的冷蓝卧室" width="1600" height="1067" loading="lazy" decoding="async" /><figcaption>场景二 / 末日废墟中的冷蓝卧室</figcaption></figure>
+          <figure><img src="场景三废弃走廊中的蓝光与静电.webp" alt="废弃走廊中的蓝光与静电" width="1600" height="1067" loading="lazy" decoding="async" /><figcaption>场景三 / 废弃走廊中的蓝光与静电</figcaption></figure>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
